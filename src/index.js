@@ -209,6 +209,7 @@
 
 /**
  * 論理演算子の本当の意味を知ろう && ||
+ * andAlso, orElse
  */
 // const flag1 = true;
 // const flag2 = true;
@@ -220,6 +221,12 @@
 //   console.log("1も2もtrueです");
 // }
 
-const num = null;
-const fee = num || "金額未設定です";
-console.log(fee);
+// || は左辺がfalseなら右辺を返す
+// const num = null;
+// const fee = num || "金額未設定です";
+// console.log(fee);
+
+// && は左辺がtrueなら右辺を返す
+// const num2 = null;
+// const fee2 = num2 && "何か設定されました";
+// console.log(fee2);
